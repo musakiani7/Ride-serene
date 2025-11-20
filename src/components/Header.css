@@ -1,0 +1,246 @@
+.header {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-grey);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow-sm);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  color: var(--color-grey-dark);
+  margin: 0;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: var(--color-black);
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-gold);
+}
+
+.nav-link svg {
+  transition: transform 0.3s ease;
+}
+
+.nav-link .chevron-up {
+  transform: rotate(180deg);
+}
+
+.nav-item {
+  position: relative;
+  z-index: 100;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey);
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  min-width: 220px;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  animation: fadeInDown 0.2s ease-out;
+  pointer-events: auto;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown a,
+.dropdown button {
+  padding: 0.75rem 1.5rem;
+  color: var(--color-black);
+  text-align: left;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+  background-color: var(--color-grey-light);
+  color: var(--color-gold);
+  padding-left: 1.75rem;
+}
+
+.dropdown a:active,
+.dropdown button:active {
+  background-color: var(--color-grey);
+  color: var(--color-gold-dark);
+}
+
+.sign-in-btn {
+  padding: 0.625rem 1.25rem;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 1rem;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 0.65rem;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+    border-top: 1px solid var(--color-grey);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  .nav-open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-link {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-grey-light);
+  }
+
+  .dropdown {
+    position: static;
+    box-shadow: none;
+    border: none;
+    margin-top: 0;
+    padding-left: 1rem;
+    animation: none;
+  }
+
+  .dropdown a,
+  .dropdown button {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .sign-in-btn {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0.75rem;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .tagline {
+    font-size: 0.6rem;
+  }
+}
+

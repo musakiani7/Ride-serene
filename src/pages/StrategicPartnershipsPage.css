@@ -1,0 +1,661 @@
+/* Strategic Partnerships Page Styles */
+
+.strategic-partnerships-page {
+  width: 100%;
+}
+
+/* Hero Section */
+.sp-hero {
+  position: relative;
+  height: 400px;
+  background: url('/images/partnership-hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.sp-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.sp-hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.sp-hero h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+  max-width: 900px;
+}
+
+/* Container */
+.sp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Partnership Types Section */
+.sp-types-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.sp-types-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.sp-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.sp-type-card {
+  background: white;
+  padding: 0;
+}
+
+.sp-type-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.sp-type-icon {
+  width: 60px;
+  height: 60px;
+  background: #D4AF37;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.sp-type-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.sp-type-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.sp-type-description {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.sp-type-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sp-type-benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.sp-type-benefits li svg {
+  color: #D4AF37;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Corporate Benefits Section */
+.sp-benefits-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.sp-benefits-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.sp-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 50px;
+}
+
+.sp-benefit-card {
+  text-align: left;
+}
+
+.sp-benefit-icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #D4AF37;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sp-benefit-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.sp-benefit-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.sp-benefit-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Testimonial Section */
+.sp-testimonial-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.sp-testimonial {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sp-testimonial p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.sp-testimonial cite {
+  display: block;
+  font-size: 0.95rem;
+  color: #666;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* API Integration Section */
+.sp-api-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.sp-api-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.sp-api-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sp-api-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.sp-api-intro {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.sp-api-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.sp-api-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.sp-api-features li svg {
+  color: #D4AF37;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sp-api-features strong {
+  font-weight: 600;
+}
+
+.sp-cta-button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.sp-cta-button:hover {
+  background: #cc0000;
+}
+
+/* Awards Section */
+.sp-awards-section {
+  padding: 60px 0;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sp-awards-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.sp-awards-text h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.sp-awards-logos {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.sp-award-logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.sp-award-logo img {
+  max-height: 100%;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.sp-award-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Contact Section */
+.sp-contact-section {
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+
+.sp-contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.sp-contact-text h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.sp-contact-text p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.sp-contact-button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.sp-contact-button:hover {
+  background: #cc0000;
+}
+
+/* Form Section */
+.sp-form-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.sp-form-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sp-form-wrapper h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.sp-form-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+.sp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sp-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.sp-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-form-group label {
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.sp-form-group input,
+.sp-form-group select,
+.sp-form-group textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.sp-form-group input:focus,
+.sp-form-group select:focus,
+.sp-form-group textarea:focus {
+  outline: none;
+  border-color: #D4AF37;
+}
+
+.sp-form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.sp-submit-button {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.sp-submit-button:hover {
+  background: #333;
+}
+
+/* FAQ Section */
+.sp-faq-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.sp-faq-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.sp-faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sp-faq-item {
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sp-faq-question {
+  width: 100%;
+  padding: 20px 25px;
+  background: white;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.sp-faq-question:hover {
+  background: #f8f8f8;
+}
+
+.sp-faq-question.active {
+  background: #f8f8f8;
+}
+
+.sp-faq-icon {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  font-weight: 300;
+}
+
+.sp-faq-answer {
+  padding: 0 25px 20px 25px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.sp-faq-answer p {
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Final CTA Section */
+.sp-final-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  text-align: center;
+  color: white;
+}
+
+.sp-final-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.sp-final-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  color: #ccc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sp-final-cta .sp-cta-button {
+  background: #D4AF37;
+  font-size: 1.1rem;
+  padding: 15px 45px;
+}
+
+.sp-final-cta .sp-cta-button:hover {
+  background: #c49d2f;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .sp-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .sp-types-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .sp-benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .sp-api-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .sp-awards-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sp-awards-logos {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sp-contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sp-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .sp-hero {
+    height: 300px;
+  }
+
+  .sp-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .sp-types-section,
+  .sp-benefits-section,
+  .sp-api-section,
+  .sp-form-section,
+  .sp-faq-section,
+  .sp-final-cta {
+    padding: 50px 0;
+  }
+
+  .sp-types-section h2,
+  .sp-benefits-section h2,
+  .sp-faq-section h2,
+  .sp-final-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .sp-testimonial p {
+    font-size: 1.2rem;
+  }
+
+  .sp-awards-logos {
+    gap: 30px;
+  }
+
+  .sp-award-logo {
+    height: 60px;
+  }
+}

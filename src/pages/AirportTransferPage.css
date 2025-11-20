@@ -1,0 +1,650 @@
+/* Airport Transfer Page Styles */
+
+.airport-transfer-page {
+  min-height: 100vh;
+}
+
+/* Hero Section with Booking Form */
+.hero-section-airport {
+  position: relative;
+  min-height: 500px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url('/images/airport-hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-xl) 0;
+}
+
+.hero-content-airport {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: var(--spacing-2xl);
+  align-items: center;
+}
+
+.hero-text-airport {
+  text-align: left;
+}
+
+.hero-title-airport {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.5px;
+  max-width: 500px;
+}
+
+/* Booking Form Card */
+.booking-form-card-airport {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.trip-type-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.trip-type-btn {
+  flex: 1;
+  padding: 12px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trip-type-btn.active {
+  background: black;
+  color: white;
+  border-color: black;
+}
+
+.trip-type-btn:hover:not(.active) {
+  border-color: #999;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group-inline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  background: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.form-group-inline:focus-within {
+  background: white;
+  border-color: #ff4444;
+}
+
+.form-group-inline svg {
+  color: #666;
+  flex-shrink: 0;
+}
+
+.form-group-inline input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.form-group-inline input::placeholder {
+  color: #999;
+}
+
+.form-row-split {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row-split .form-group-inline {
+  width: 100%;
+}
+
+.booking-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: #fffbf0;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #666;
+}
+
+.booking-note svg {
+  color: #ffd700;
+  flex-shrink: 0;
+}
+
+.search-btn-airport {
+  width: 100%;
+  padding: 14px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-btn-airport:hover {
+  background: #cc0000;
+}
+
+.search-btn-airport:active {
+  transform: scale(0.98);
+}
+
+/* Features Section */
+.features-airport-section {
+  background: var(--color-white);
+  padding: var(--spacing-2xl) 0;
+}
+
+.features-airport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-2xl);
+}
+
+.feature-airport-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+}
+
+.feature-airport-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto var(--spacing-md);
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff4444 100%);
+  color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(255, 68, 68, 0.2);
+}
+
+.feature-airport-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-black);
+}
+
+.feature-airport-description {
+  font-size: 0.95rem;
+  color: var(--color-grey-dark);
+  line-height: 1.6;
+}
+
+/* Service Classes Section */
+.service-classes-section {
+  background: var(--color-grey-light);
+  padding: var(--spacing-2xl) 0;
+}
+
+.service-carousel {
+  position: relative;
+  margin: var(--spacing-2xl) 0;
+}
+
+.service-slides {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.service-slide {
+  min-width: 100%;
+  display: none;
+  background: var(--color-white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-slide.active {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+}
+
+.service-image {
+  background: var(--color-grey);
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-details {
+  padding: var(--spacing-xl);
+}
+
+.service-details h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-black);
+}
+
+.service-description {
+  font-size: 0.95rem;
+  color: var(--color-grey-dark);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.service-passengers {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: var(--spacing-md);
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-features li {
+  font-size: 0.95rem;
+  color: var(--color-grey-dark);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--color-white);
+  border: 2px solid var(--color-grey);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-white);
+}
+
+.carousel-btn.prev {
+  left: -60px;
+}
+
+.carousel-btn.next {
+  right: -60px;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-lg);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-grey);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: var(--color-gold);
+  width: 30px;
+  border-radius: 5px;
+}
+
+/* Content Sections */
+.global-cities-section,
+.get-to-airport-section,
+.shuttle-booking-section {
+  padding: var(--spacing-2xl) 0;
+}
+
+.global-cities-section {
+  background: var(--color-white);
+}
+
+.get-to-airport-section {
+  background: var(--color-grey-light);
+}
+
+.shuttle-booking-section {
+  background: var(--color-white);
+}
+
+.global-cities-content,
+.get-to-airport-content,
+.shuttle-booking-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+}
+
+.get-to-airport-content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.shuttle-booking-content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.global-cities-text h2,
+.get-to-airport-text h2,
+.shuttle-booking-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-black);
+  letter-spacing: -0.5px;
+  line-height: 1.3;
+}
+
+.global-cities-text p,
+.get-to-airport-text p,
+.shuttle-booking-text p {
+  font-size: 1rem;
+  color: var(--color-grey-dark);
+  line-height: 1.7;
+}
+
+.global-cities-image img,
+.get-to-airport-image img,
+.shuttle-booking-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Section */
+.faq-airport-section {
+  background: var(--color-grey-light);
+  padding: var(--spacing-2xl) 0;
+}
+
+.faq-airport-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: start;
+}
+
+.faq-airport-list h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-xl);
+  color: var(--color-black);
+}
+
+.faq-airport-item {
+  border-bottom: 1px solid var(--color-grey);
+  padding: var(--spacing-md) 0;
+}
+
+.faq-airport-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: var(--spacing-sm) 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-black);
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.faq-airport-question:hover {
+  color: var(--color-gold);
+}
+
+.faq-airport-icon {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.faq-airport-icon.open {
+  transform: rotate(180deg);
+}
+
+.faq-airport-answer {
+  padding: var(--spacing-md) 0;
+  animation: slideDown 0.3s ease;
+}
+
+.faq-airport-answer p {
+  font-size: 0.95rem;
+  color: var(--color-grey-dark);
+  line-height: 1.7;
+}
+
+.faq-airport-image {
+  position: sticky;
+  top: 100px;
+}
+
+.faq-airport-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+
+  .hero-title-airport {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .hero-text-airport {
+    text-align: center;
+  }
+
+  .service-slide.active {
+    grid-template-columns: 1fr;
+  }
+
+  .service-image {
+    height: 250px;
+  }
+
+  .carousel-btn.prev {
+    left: 10px;
+  }
+
+  .carousel-btn.next {
+    right: 10px;
+  }
+
+  .global-cities-content,
+  .get-to-airport-content,
+  .shuttle-booking-content,
+  .faq-airport-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+
+  .faq-airport-image {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section-airport {
+    min-height: 400px;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .hero-title-airport {
+    font-size: 1.5rem;
+  }
+
+  .booking-form-card-airport {
+    padding: 15px;
+  }
+
+  .trip-type-selector {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .trip-type-btn {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 120px;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .form-group-inline input {
+    font-size: 14px;
+  }
+
+  .booking-note {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .search-btn-airport {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .features-airport-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .service-details h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section-airport {
+    min-height: 350px;
+  }
+
+  .hero-title-airport {
+    font-size: 1.35rem;
+  }
+
+  .booking-form-card-airport {
+    padding: 12px;
+  }
+
+  .trip-type-selector {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .trip-type-btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .form-group-inline {
+    padding: 10px;
+  }
+
+  .form-group-inline svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .form-group-inline input {
+    font-size: 13px;
+  }
+
+  .booking-note {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .booking-note svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .search-btn-airport {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

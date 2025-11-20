@@ -1,0 +1,913 @@
+/* Corporate Travel Page Styles */
+
+/* Hero Section */
+.hero-corporate-section {
+  position: relative;
+  min-height: 350px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-corporate-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/images/corporate-hero-bg.jpg') center/cover no-repeat;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.hero-corporate-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  z-index: 2;
+}
+
+.hero-corporate-content {
+  position: relative;
+  z-index: 3;
+  padding: 3rem 0;
+}
+
+.hero-corporate-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  max-width: 800px;
+}
+
+/* Hero Image Banner */
+.hero-image-banner {
+  padding: 0;
+  background: white;
+}
+
+.hero-banner-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Occasions Section */
+.occasions-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.section-title-corporate {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.3;
+}
+
+.section-subtitle-corporate {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+}
+
+.occasions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.occasion-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.occasion-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.occasion-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.occasion-card:hover .occasion-image img {
+  transform: scale(1.05);
+}
+
+.occasion-content {
+  padding: 1.5rem;
+}
+
+.occasion-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.occasion-content p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.occasions-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-corporate-primary {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-corporate-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+}
+
+/* Testimonial Corporate Section */
+.testimonial-corporate-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.testimonial-corporate-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+
+.testimonial-corporate-quote {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-corporate-author {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Reliability Section */
+.reliability-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.reliability-content {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.reliability-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.reliability-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reliability-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.features-list-corporate {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list-corporate li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.features-list-corporate li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Invoice Section */
+.invoice-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.invoice-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.invoice-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.btn-corporate-secondary {
+  padding: 1rem 2rem;
+  background: white;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+}
+
+.btn-corporate-secondary:hover {
+  background: #000;
+  color: white;
+}
+
+.invoice-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Booking Executives Section */
+.booking-executives-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.booking-executives-content {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.booking-executives-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.booking-executives-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.booking-executives-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.booking-executives-text p {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* By Hour Section */
+.by-hour-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.by-hour-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.by-hour-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.by-hour-text p {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+.by-hour-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.by-hour-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Awards Corporate Section */
+.awards-corporate-section {
+  padding: var(--spacing-xl) 0;
+  background: white;
+}
+
+.awards-corporate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.award-corporate-item {
+  text-align: center;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.award-corporate-item:hover {
+  opacity: 1;
+}
+
+.award-corporate-item img {
+  max-height: 80px;
+  width: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.award-corporate-item:hover img {
+  filter: grayscale(0%);
+}
+
+.ready-started-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Sustainability Corporate Section */
+.sustainability-corporate-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.sustainability-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.sustainability-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.sustainability-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.sustainability-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.sustainability-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sustainability-tag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #ff4444;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.sustainability-content {
+  padding: 1.5rem;
+}
+
+.sustainability-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.sustainability-content p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Benefits Corporate Section */
+.benefits-corporate-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.benefits-corporate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.benefit-corporate-card {
+  text-align: center;
+  padding: 2rem;
+  background: #f8f8f8;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.benefit-corporate-card:hover {
+  background: white;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.benefit-corporate-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border-radius: 12px;
+  margin: 0 auto 1.5rem;
+}
+
+.benefit-corporate-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-corporate-card p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Articles Section */
+.articles-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.article-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.article-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-category {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.article-content {
+  padding: 1.5rem;
+}
+
+.article-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.4;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.corporate-contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f8f8f8;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.form-row-corporate {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-corporate {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-corporate input,
+.form-group-corporate select,
+.form-group-corporate textarea {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.form-group-corporate input:focus,
+.form-group-corporate select:focus,
+.form-group-corporate textarea:focus {
+  outline: none;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.form-group-corporate textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-footer-corporate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.privacy-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.privacy-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--color-gold);
+}
+
+.btn-corporate-submit {
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-corporate-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+}
+
+/* FAQ Corporate Section */
+.faq-corporate-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.faq-corporate-content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.faq-corporate-list h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.faq-corporate-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-corporate-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.faq-corporate-question:hover {
+  color: var(--color-gold);
+}
+
+.faq-corporate-icon {
+  transition: transform 0.3s ease;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.faq-corporate-icon.open {
+  transform: rotate(180deg);
+}
+
+.faq-corporate-answer {
+  padding: 0 0 1.25rem 0;
+  animation: fadeIn 0.3s ease;
+}
+
+.faq-corporate-answer p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.faq-corporate-image {
+  position: sticky;
+  top: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.faq-corporate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+  padding: var(--spacing-xl) 0;
+  background: white;
+}
+
+.final-cta-box {
+  text-align: center;
+  padding: 3rem;
+  background: #f8f8f8;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.final-cta-box h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.btn-corporate-primary-large {
+  padding: 1.2rem 4rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-corporate-primary-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero-corporate-title {
+    font-size: 2.2rem;
+  }
+
+  .section-title-corporate {
+    font-size: 2rem;
+  }
+
+  .occasions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reliability-content,
+  .invoice-content,
+  .booking-executives-content,
+  .by-hour-content,
+  .faq-corporate-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .benefits-corporate-grid,
+  .sustainability-grid,
+  .articles-grid,
+  .awards-corporate-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form-row-corporate {
+    grid-template-columns: 1fr;
+  }
+
+  .form-footer-corporate {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .testimonial-corporate-quote {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-corporate-title {
+    font-size: 1.8rem;
+  }
+
+  .occasions-grid,
+  .benefits-corporate-grid,
+  .sustainability-grid,
+  .articles-grid,
+  .awards-corporate-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .corporate-contact-form {
+    padding: 2rem 1.5rem;
+  }
+
+  .testimonial-corporate-box {
+    padding: 2rem 1rem;
+  }
+
+  .testimonial-corporate-quote {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-corporate-title {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .corporate-contact-form {
+    padding: 1.5rem 1rem;
+  }
+
+  .testimonial-corporate-box {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .testimonial-corporate-quote {
+    font-size: 1.1rem;
+  }
+
+  .occasion-card,
+  .benefit-corporate-card,
+  .article-card {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,645 @@
+/* Events Page Styles */
+
+.events-page {
+  width: 100%;
+}
+
+/* Hero Section */
+.events-hero {
+  position: relative;
+  height: 450px;
+  background: url('/images/event-hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.events-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.events-hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.events-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0;
+  max-width: 900px;
+}
+
+/* Container */
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Features Section */
+.events-features-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.events-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.events-feature-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.events-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #D4AF37;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #D4AF37;
+}
+
+.events-feature-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.events-feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.events-feature-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Booking Section */
+.events-booking-section {
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+
+.events-booking-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.events-booking-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.events-booking-text p {
+  color: #333;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.events-booking-text strong {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Services Section */
+.events-services-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.events-services-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.events-services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.events-service-card {
+  background: white;
+}
+
+.events-service-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.events-service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.events-service-card:hover .events-service-image img {
+  transform: scale(1.05);
+}
+
+.events-service-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+  line-height: 1.3;
+}
+
+.events-service-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+/* Why Work With Us Section */
+.events-why-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.events-why-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.events-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.events-benefit-card {
+  text-align: left;
+}
+
+.events-benefit-icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #D4AF37;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.events-benefit-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.events-benefit-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.events-benefit-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Who We Support Section */
+.events-support-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.events-support-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.events-support-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.events-support-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.events-support-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.events-support-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.events-support-list li svg {
+  color: #D4AF37;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Global Reach Section */
+.events-global-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.events-global-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.events-global-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.events-global-text p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.events-global-map img {
+  width: 100%;
+  height: auto;
+}
+
+/* Testimonial Section */
+.events-testimonial-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.events-testimonial {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.events-testimonial p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.events-testimonial cite {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Contact Form Section */
+.events-form-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.events-form-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.events-form-wrapper h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.events-form-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.events-form-intro a {
+  color: #D4AF37;
+  text-decoration: underline;
+}
+
+.events-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.events-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.events-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-form-group label {
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.events-form-group input,
+.events-form-group select,
+.events-form-group textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: white;
+  transition: border-color 0.3s;
+}
+
+.events-form-group input:focus,
+.events-form-group select:focus,
+.events-form-group textarea:focus {
+  outline: none;
+  border-color: #D4AF37;
+}
+
+.events-form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.events-phone-input {
+  display: flex;
+  gap: 10px;
+}
+
+.events-country-code {
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.events-phone-input input {
+  flex: 1;
+}
+
+.events-form-captcha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  margin-top: 10px;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.captcha-box input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.captcha-box label {
+  margin: 0;
+  cursor: pointer;
+  color: #333;
+}
+
+.recaptcha-logo {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.events-submit-button {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.events-submit-button:hover {
+  background: #333;
+}
+
+/* Final CTA Section */
+.events-final-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  text-align: center;
+  color: white;
+}
+
+.events-final-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.events-final-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  color: #ccc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events-cta-button {
+  background: #D4AF37;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.events-cta-button:hover {
+  background: #c49d2f;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .events-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .events-features-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .events-booking-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .events-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .events-benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .events-support-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .events-global-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .events-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .events-hero {
+    height: 300px;
+  }
+
+  .events-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .events-services-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .events-features-section,
+  .events-booking-section,
+  .events-services-section,
+  .events-why-section,
+  .events-support-section,
+  .events-global-section,
+  .events-testimonial-section,
+  .events-form-section,
+  .events-final-cta {
+    padding: 50px 0;
+  }
+
+  .events-services-section h2,
+  .events-why-section h2,
+  .events-form-wrapper h2,
+  .events-final-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .events-testimonial p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .events-hero {
+    height: 250px;
+  }
+
+  .events-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .events-services-section h2,
+  .events-why-section h2,
+  .events-form-wrapper h2,
+  .events-final-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .events-testimonial p {
+    font-size: 1.15rem;
+  }
+
+  .events-features-section,
+  .events-booking-section,
+  .events-services-section,
+  .events-why-section,
+  .events-support-section,
+  .events-global-section,
+  .events-testimonial-section,
+  .events-form-section,
+  .events-final-cta {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+}

@@ -1,0 +1,552 @@
+/* Chauffeur Services Page Styles */
+
+.chauffeur-services-page {
+  width: 100%;
+}
+
+/* Hero Section with Booking */
+.cs-hero {
+  position: relative;
+  min-height: 500px;
+  background: url('/images/chauffeur-hero.jpg') center/cover no-repeat;
+  padding: 80px 20px 60px;
+}
+
+.cs-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 60px;
+  align-items: start;
+}
+
+.cs-hero-text {
+  padding-top: 40px;
+}
+
+.cs-hero-text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000;
+  margin: 0;
+}
+
+.cs-booking-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cs-booking-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cs-booking-tabs button {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cs-booking-tabs button.active {
+  background: #000;
+  color: white;
+  border-color: #000;
+}
+
+.cs-booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cs-form-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+}
+
+.cs-form-group svg {
+  color: #666;
+  flex-shrink: 0;
+}
+
+.cs-form-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.cs-form-group input::placeholder {
+  color: #999;
+}
+
+.cs-booking-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.cs-booking-note svg {
+  color: #D4AF37;
+}
+
+.cs-search-button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cs-search-button:hover {
+  background: #cc0000;
+}
+
+/* Container */
+.cs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Features Section */
+.cs-features-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.cs-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.cs-feature-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.cs-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #ff4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #ff4444;
+}
+
+.cs-feature-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.cs-feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.cs-feature-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Vehicle Classes Section */
+.cs-classes-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.cs-classes-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.cs-classes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.cs-class-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cs-class-carousel {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #e0e0e0;
+}
+
+.cs-class-image {
+  width: 100%;
+  height: 100%;
+}
+
+.cs-class-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cs-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.cs-carousel-btn:hover {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cs-carousel-btn.prev {
+  left: 15px;
+}
+
+.cs-carousel-btn.next {
+  right: 15px;
+}
+
+.cs-carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.cs-carousel-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cs-carousel-dots span.active {
+  background: white;
+  width: 24px;
+  border-radius: 4px;
+}
+
+.cs-class-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 20px 20px 10px;
+  color: #000;
+}
+
+.cs-class-description {
+  padding: 0 20px;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.cs-class-features {
+  list-style: none;
+  padding: 0 20px 25px;
+  margin: 0;
+}
+
+.cs-class-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.cs-class-features li svg {
+  color: #D4AF37;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* World Class Section */
+.cs-world-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.cs-world-content {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.cs-world-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cs-world-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cs-world-text p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* Chauffeur Hire Section */
+.cs-hire-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.cs-hire-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 60px;
+  align-items: start;
+}
+
+.cs-hire-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cs-hire-text p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.cs-hire-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Travel Section */
+.cs-travel-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.cs-travel-content {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.cs-travel-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cs-travel-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cs-travel-text p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* Airport Section */
+.cs-airport-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.cs-airport-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 60px;
+  align-items: start;
+}
+
+.cs-airport-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cs-airport-text p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.cs-airport-text strong {
+  color: #000;
+  font-weight: 600;
+}
+
+.cs-airport-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Final CTA Section */
+.cs-final-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  text-align: center;
+  color: white;
+}
+
+.cs-final-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.cs-final-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  color: #ccc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cs-cta-button {
+  background: #D4AF37;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.cs-cta-button:hover {
+  background: #c49d2f;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .cs-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cs-hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .cs-booking-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .cs-features-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cs-classes-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .cs-world-content,
+  .cs-hire-content,
+  .cs-travel-content,
+  .cs-airport-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cs-hero {
+    padding: 60px 20px 40px;
+  }
+
+  .cs-hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .cs-classes-section,
+  .cs-world-section,
+  .cs-hire-section,
+  .cs-travel-section,
+  .cs-airport-section,
+  .cs-final-cta {
+    padding: 50px 0;
+  }
+
+  .cs-classes-section h2,
+  .cs-final-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .cs-booking-tabs {
+    flex-direction: column;
+  }
+}

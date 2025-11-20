@@ -1,0 +1,447 @@
+/* Business Overview Page Styles */
+
+/* Hero Section */
+.hero-business-section {
+  position: relative;
+  min-height: 400px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-business-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/images/business-hero.jpg') center/cover no-repeat;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.hero-business-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
+  z-index: 2;
+}
+
+.hero-business-content {
+  position: relative;
+  z-index: 3;
+  padding: 4rem 0;
+}
+
+.hero-business-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  max-width: 800px;
+}
+
+/* Award Intro Section */
+.award-intro-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.section-title-business {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.3;
+}
+
+.services-grid-business {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service-card-business {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service-card-business:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-image-business {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.service-image-business img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-card-business:hover .service-image-business img {
+  transform: scale(1.05);
+}
+
+.service-content-business {
+  padding: 1.75rem;
+}
+
+.service-content-business h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.service-content-business p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.service-link-business {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-gold);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.service-link-business:hover {
+  color: #b8941f;
+  gap: 0.75rem;
+}
+
+/* CTA Business Section */
+.cta-business-section {
+  padding: var(--spacing-xl) 0;
+  background: #f8f8f8;
+}
+
+.cta-business-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.cta-business-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.cta-business-text p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.cta-business-btn {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cta-business-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+}
+
+/* Testimonial Business Section */
+.testimonial-business-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.testimonial-business-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+
+.testimonial-business-quote {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-business-author {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Why Choose Section */
+.why-choose-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.benefits-grid-business {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.benefit-card-business {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-card-business:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon-business {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border-radius: 12px;
+  margin: 0 auto 1.5rem;
+}
+
+.benefit-card-business h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-card-business p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Contact CTA Section */
+.contact-cta-section {
+  padding: var(--spacing-xl) 0;
+  background: white;
+}
+
+.contact-cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+}
+
+.contact-cta-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.contact-cta-text p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.contact-cta-btn {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.contact-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+}
+
+/* Awards Section */
+.awards-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+  border-top: 1px solid #e0e0e0;
+}
+
+.awards-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.awards-text {
+  flex: 1;
+}
+
+.awards-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.3;
+}
+
+.awards-logos {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.award-logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.award-logo:hover {
+  opacity: 1;
+}
+
+.award-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.award-logo:hover img {
+  filter: grayscale(0%);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero-business-title {
+    font-size: 2.2rem;
+  }
+
+  .section-title-business {
+    font-size: 2rem;
+  }
+
+  .services-grid-business {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .benefits-grid-business {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .cta-business-content,
+  .contact-cta-content {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .awards-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .awards-logos {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .testimonial-business-quote {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-business-section {
+    min-height: 350px;
+  }
+
+  .hero-business-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title-business {
+    font-size: 1.6rem;
+  }
+
+  .benefits-grid-business {
+    grid-template-columns: 1fr;
+  }
+
+  .service-content-business {
+    padding: 1.5rem;
+  }
+
+  .testimonial-business-box {
+    padding: 2rem 1rem;
+  }
+
+  .testimonial-business-quote {
+    font-size: 1.2rem;
+  }
+
+  .benefit-card-business {
+    padding: 1.5rem;
+  }
+
+  .awards-logos {
+    gap: 1.5rem;
+  }
+
+  .award-logo {
+    height: 60px;
+  }
+}

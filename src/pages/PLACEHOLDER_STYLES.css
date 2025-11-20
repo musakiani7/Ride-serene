@@ -1,0 +1,124 @@
+/* 
+ * Temporary Placeholder Styles for Images
+ * Add this to CityToCityPage.css until you have real images
+ * Remove once actual images are added
+ */
+
+/* Hero placeholder background */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* City card image placeholders */
+.city-image {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.city-image::before {
+  content: '🏙️';
+  font-size: 3rem;
+}
+
+/* FAQ image placeholder */
+.faq-image {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  min-height: 400px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-image::before {
+  content: '🚗';
+  font-size: 5rem;
+}
+
+/* App preview placeholder */
+.app-image,
+.download-image {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  min-height: 400px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-image::before,
+.download-image::before {
+  content: '📱';
+  font-size: 5rem;
+}
+
+/* Map placeholders */
+.route-map,
+.global-map {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  min-height: 400px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.route-map::before {
+  content: '🗺️';
+  font-size: 5rem;
+}
+
+.global-map::before {
+  content: '🌍';
+  font-size: 5rem;
+}
+
+/* App badges placeholder */
+.app-badges img,
+.download-badges img {
+  background: #000;
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 40px;
+  width: 135px;
+  object-fit: contain;
+}
+
+/* QR Code placeholder */
+.qr-code {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  width: 150px;
+  height: 150px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-code::before {
+  content: '⬛';
+  font-size: 3rem;
+}
+
+/* Hide broken images gracefully */
+img {
+  background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+}
+
+img[alt]::after {
+  content: attr(alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+}

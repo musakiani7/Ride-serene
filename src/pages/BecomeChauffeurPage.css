@@ -1,0 +1,648 @@
+/* Become Chauffeur Page Styles */
+
+/* Hero Section */
+.hero-chauffeur-section {
+  position: relative;
+  min-height: 500px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-chauffeur-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/images/chauffeur-hero.jpg') center/cover no-repeat;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.hero-chauffeur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
+  z-index: 2;
+}
+
+.hero-chauffeur-content {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.hero-chauffeur-text {
+  max-width: 700px;
+}
+
+.hero-chauffeur-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.apply-now-btn-hero {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 68, 68, 0.3);
+}
+
+.apply-now-btn-hero:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 68, 68, 0.4);
+}
+
+/* Intro Section */
+.intro-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.section-title-chauffeur {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-description-chauffeur {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.testimonial-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+
+.testimonial-quote {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Benefits Grid */
+.benefits-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.benefits-grid-chauffeur {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.benefit-card-chauffeur {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.benefit-card-chauffeur:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon-chauffeur {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-gold) 0%, #b8941f 100%);
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.benefit-title-chauffeur {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.benefit-description-chauffeur {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Requirements Section */
+.requirements-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.requirements-content {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.requirements-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.requirements-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.requirements-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.requirements-intro {
+  font-size: 1.05rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.requirements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.requirements-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.requirements-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.requirements-note {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.view-requirements-btn {
+  padding: 0.9rem 2rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-requirements-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.3);
+}
+
+/* Onboarding Section */
+.onboarding-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.onboarding-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.onboarding-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.onboarding-steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.onboarding-steps li {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  counter-increment: step-counter;
+}
+
+.onboarding-steps li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, var(--color-gold) 0%, #b8941f 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.apply-btn-onboarding {
+  padding: 0.9rem 2rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.apply-btn-onboarding:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.3);
+}
+
+.onboarding-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.onboarding-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sustainability Section */
+.sustainability-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.sustainability-content {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.sustainability-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.sustainability-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sustainability-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.sustainability-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.learn-more-btn {
+  padding: 0.9rem 2rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.3);
+}
+
+/* FAQ Section */
+.faq-chauffeur-section {
+  padding: var(--spacing-2xl) 0;
+  background: white;
+}
+
+.faq-chauffeur-content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.faq-chauffeur-list h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.faq-chauffeur-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-chauffeur-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.faq-chauffeur-question:hover {
+  color: var(--color-gold);
+}
+
+.faq-chauffeur-icon {
+  transition: transform 0.3s ease;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.faq-chauffeur-icon.open {
+  transform: rotate(180deg);
+}
+
+.faq-chauffeur-answer {
+  padding: 0 0 1.25rem 0;
+  animation: fadeIn 0.3s ease;
+}
+
+.faq-chauffeur-answer p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.faq-chauffeur-image {
+  position: sticky;
+  top: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.faq-chauffeur-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: var(--spacing-2xl) 0;
+  background: #f8f8f8;
+}
+
+.cta-box {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.cta-subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.learn-more-cta-btn {
+  padding: 0.9rem 2.5rem;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero-chauffeur-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title-chauffeur {
+    font-size: 2.2rem;
+  }
+
+  .benefits-grid-chauffeur {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .requirements-content,
+  .onboarding-content,
+  .sustainability-content,
+  .faq-chauffeur-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .onboarding-content {
+    grid-template-columns: 1fr;
+  }
+
+  .onboarding-text {
+    order: 1;
+  }
+
+  .onboarding-image {
+    order: 2;
+  }
+
+  .faq-chauffeur-image {
+    position: relative;
+    top: 0;
+  }
+
+  .testimonial-quote {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-chauffeur-section {
+    min-height: 400px;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .hero-chauffeur-title {
+    font-size: 2rem;
+  }
+
+  .section-title-chauffeur,
+  .requirements-title,
+  .onboarding-title,
+  .sustainability-title {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-quote {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-box {
+    padding: 2rem 1rem;
+  }
+
+  .benefit-card-chauffeur {
+    padding: 1.5rem;
+  }
+
+  .cta-box {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-chauffeur-section {
+    min-height: 350px;
+  }
+
+  .hero-chauffeur-title {
+    font-size: 1.75rem;
+  }
+
+  .section-title-chauffeur,
+  .requirements-title,
+  .onboarding-title,
+  .sustainability-title {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-quote {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-box {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .benefit-card-chauffeur {
+    padding: 1rem;
+  }
+
+  .cta-box {
+    padding: 1.5rem;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
