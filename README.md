@@ -166,14 +166,14 @@ Multer for file uploads (vehicle / document photos)
 
 Install & Run (local dev)
 
-# from project root, if backend in 'backend' folder:
+from project root, if backend in 'backend' folder:
 cd backend
 npm install
 
-# development (with nodemon)
+ development (with nodemon)
 npm run dev
 
-# or production start
+ or production start
 npm start
 
 
