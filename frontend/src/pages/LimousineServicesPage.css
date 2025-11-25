@@ -1,0 +1,816 @@
+/* Limousine Services Page Styles */
+
+.limo-services-page {
+  width: 100%;
+}
+
+/* Hero Section with Booking */
+.limo-hero {
+  position: relative;
+  min-height: 700px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.limo-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1920&q=80') center/cover;
+  z-index: 1;
+}
+
+.limo-hero-content {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+}
+
+.limo-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: left;
+  max-width: 500px;
+  z-index: 2;
+  padding-left: 2rem;
+}
+
+.limo-hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.limo-booking-card {
+  background: #FFFFFF;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 460px;
+  margin-right: 2rem;
+  z-index: 4;
+  position: relative;
+}
+
+.limo-booking-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.limo-ride-type-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: #F7F8FA;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+}
+
+.limo-ride-type-card {
+  background: transparent;
+  border: none;
+  border-radius: 11px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6B7280;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+}
+
+.limo-ride-type-card:hover {
+  color: #1F2937;
+}
+
+.limo-ride-type-card.active {
+  background: #FFFFFF;
+  color: #111827;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.limo-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.limo-card-content svg {
+  color: #3B82F6;
+}
+
+.limo-ride-type-card.active .limo-card-content svg {
+  color: #2563EB;
+}
+
+.limo-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.limo-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.limo-form-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #374151;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.limo-form-group input,
+.limo-form-group select {
+  padding: 15px 18px;
+  border: 1.5px solid #E5E7EB;
+  border-radius: 12px;
+  font-size: 15px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #FFFFFF;
+  color: #111827;
+}
+
+.limo-form-group input:hover,
+.limo-form-group select:hover {
+  border-color: #D1D5DB;
+  background: #FAFAFA;
+}
+
+.limo-form-group input:focus,
+.limo-form-group select:focus {
+  outline: none;
+  border-color: #3B82F6;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.limo-form-group select {
+  cursor: pointer;
+}
+
+.limo-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.limo-info-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background-color: #EFF6FF;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #1E40AF;
+  border: 1px solid #DBEAFE;
+}
+
+.limo-info-box svg {
+  color: #3B82F6;
+  flex-shrink: 0;
+}
+
+.limo-search-button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+
+.limo-search-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+}
+
+.limo-search-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(59, 130, 246, 0.4);
+}
+
+/* Container */
+.limo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Features Section */
+.limo-features-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.limo-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.limo-feature-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.limo-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #ff4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #ff4444;
+}
+
+.limo-feature-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.limo-feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.limo-feature-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Vehicle Classes Section */
+.limo-classes-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.limo-classes-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+.limo-classes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.limo-class-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.limo-class-carousel {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #f0f0f0;
+}
+
+.limo-class-image {
+  width: 100%;
+  height: 100%;
+}
+
+.limo-class-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.carousel-btn:hover {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn.prev {
+  left: 15px;
+}
+
+.carousel-btn.next {
+  right: 15px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.carousel-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.carousel-dots span.active {
+  background: white;
+  width: 24px;
+  border-radius: 4px;
+}
+
+.limo-class-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 20px 20px 10px;
+  color: #000;
+}
+
+.limo-class-description {
+  padding: 0 20px;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.limo-class-features {
+  list-style: none;
+  padding: 0 20px 25px;
+  margin: 0;
+}
+
+.limo-class-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.limo-class-features li svg {
+  color: #D4AF37;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* City Service Section */
+.limo-city-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.limo-city-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 60px;
+  align-items: start;
+}
+
+.limo-city-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.limo-city-text p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.limo-city-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.limo-city-list li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.limo-city-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #D4AF37;
+  font-weight: bold;
+}
+
+.limo-city-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Around Section */
+.limo-around-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.limo-around-content {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.limo-around-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.limo-around-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.limo-around-text p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.limo-around-text strong {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Airport Section */
+.limo-airport-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.limo-airport-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 60px;
+  align-items: start;
+}
+
+.limo-airport-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.limo-airport-text p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.limo-airport-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* FAQ Section */
+.limo-faq-section {
+  padding: 80px 0;
+  background: #f8f8f8;
+}
+
+.limo-faq-wrapper h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.limo-faq-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 60px;
+  align-items: start;
+}
+
+.limo-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.limo-faq-item {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.limo-faq-question {
+  width: 100%;
+  padding: 20px 25px;
+  background: white;
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.limo-faq-question:hover {
+  background: #f8f8f8;
+}
+
+.limo-faq-question.active {
+  background: #f8f8f8;
+}
+
+.limo-faq-icon {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  font-weight: 300;
+}
+
+.limo-faq-answer {
+  padding: 0 25px 20px 25px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.limo-faq-answer p {
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.limo-faq-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Final CTA Section */
+.limo-final-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  text-align: center;
+  color: white;
+}
+
+.limo-final-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.limo-final-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  color: #ccc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.limo-cta-button {
+  background: #D4AF37;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.limo-cta-button:hover {
+  background: #c49d2f;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .limo-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .limo-hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .limo-booking-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .limo-features-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .limo-classes-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .limo-city-content,
+  .limo-around-content,
+  .limo-airport-content,
+  .limo-faq-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .limo-hero {
+    padding: 60px 20px 40px;
+  }
+
+  .limo-hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .limo-classes-section,
+  .limo-city-section,
+  .limo-around-section,
+  .limo-airport-section,
+  .limo-faq-section,
+  .limo-final-cta {
+    padding: 50px 0;
+  }
+
+  .limo-classes-section h2,
+  .limo-faq-wrapper h2,
+  .limo-final-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .booking-tabs {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .booking-tabs button {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 120px;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .limo-booking-card {
+    padding: 15px;
+  }
+
+  .form-group-inline input {
+    font-size: 14px;
+  }
+
+  .booking-note {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .search-button {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .limo-hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .limo-booking-card {
+    padding: 12px;
+  }
+
+  .booking-tabs {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .booking-tabs button {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .form-group-inline {
+    padding: 10px;
+  }
+
+  .form-group-inline svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .form-group-inline input {
+    font-size: 13px;
+  }
+
+  .booking-note {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .booking-note svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .search-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

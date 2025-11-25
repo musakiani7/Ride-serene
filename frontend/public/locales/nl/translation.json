@@ -1,0 +1,200 @@
+{
+  "header": {
+    "services": "Diensten",
+    "business": "Zakelijk",
+    "help": "Hulp",
+    "signIn": "Aanmelden",
+    "ourServices": "Onze diensten",
+    "forBusiness": "Voor bedrijven",
+    "forChauffeurs": "Voor chauffeurs"
+  },
+  "services": {
+    "airportTransfer": "Luchthaven transfer",
+    "cityToCity": "Stad naar stad",
+    "hourlyHire": "Uurverhuur & hele dag",
+    "chauffeurServices": "Chauffeur diensten",
+    "limousineServices": "Limousine diensten",
+    "chauffeurHailing": "Chauffeur oproepen",
+    "airportTransfers": "Luchthaven transfers"
+  },
+  "businessMenu": {
+    "corporateTravel": "Zakelijk reizen",
+    "travelAgencies": "Reisbureaus",
+    "strategicPartnerships": "Strategische partnerschappen",
+    "events": "Evenementen",
+    "overview": "Overzicht",
+    "corporations": "Bedrijven"
+  },
+  "footer": {
+    "becomeAChauffeur": "Word een Chauffeur",
+    "businessOverview": "Bedrijfsoverzicht",
+    "chauffeurLogin": "Chauffeur Inloggen",
+    "company": "Bedrijf",
+    "aboutUs": "Over Ons",
+    "careers": "Carrières",
+    "press": "Pers",
+    "blog": "Blog",
+    "rideSereneForBusiness": "RideSerene voor Bedrijven",
+    "corporateAccounts": "Zakelijke Accounts",
+    "enterprise": "Enterprise",
+    "topCities": "Top Steden",
+    "newYork": "New York",
+    "london": "Londen",
+    "paris": "Parijs",
+    "dubai": "Dubai",
+    "tagline": "Luxe. Betrouwbaarheid. Sereniteit."
+  },
+  "common": {
+    "learnMore": "Meer informatie",
+    "bookNow": "Nu boeken",
+    "getStarted": "Aan de slag",
+    "contact": "Contact opnemen",
+    "submit": "Versturen",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "company": "Bedrijf",
+    "message": "Bericht",
+    "search": "Zoeken",
+    "viewAll": "Bekijk alles",
+    "readMore": "Lees meer",
+    "from": "Van",
+    "to": "Naar",
+    "date": "Datum",
+    "time": "Tijd",
+    "duration": "Duur",
+    "hours": "uren",
+    "passengers": "Passagiers",
+    "luggage": "Bagage",
+    "people": "personen"
+  },
+  "hero": {
+    "title": "Premium Chauffeur Service",
+    "subtitle": "Ervaar luxe, betrouwbaarheid en sereniteit",
+    "oneWay": "Enkele reis",
+    "byTheHour": "Per uur",
+    "pickupLocation": "Stad, adres, luchthaven, hotel, ...",
+    "destination": "Bestemming",
+    "rideDetails": "Rit details",
+    "findYourRide": "Vind uw rit"
+  },
+  "servicesSection": {
+    "title": "Onze diensten",
+    "cityToCity": {
+      "title": "Stad naar stad ritten",
+      "desc": "Een stressvrije oplossing voor lange afstanden tussen steden met professionele chauffeurs."
+    },
+    "chauffeurHailing": {
+      "title": "Chauffeur oproepen",
+      "desc": "Ervaar de kwaliteit van een traditionele chauffeurservice met het gemak van binnen enkele minuten rijden."
+    },
+    "airportTransfers": {
+      "title": "Luchthaven transfers",
+      "desc": "Betrouwbare luchthaven transfers met extra wachttijd en vluchtvolgservice voor een naadloze reiservaring."
+    },
+    "hourlyHire": {
+      "title": "Uurverhuur en hele dag",
+      "desc": "Totale flexibiliteit, betrouwbaarheid en comfort voor uw vervoersbehoeften per uur of de hele dag."
+    },
+    "newBadge": "NIEUW"
+  },
+  "features": {
+    "safetyFirst": {
+      "title": "Veiligheid voorop",
+      "desc": "Uw veiligheid is onze topprioriteit. Alle chauffeurs zijn geverifieerd, gelicentieerd en ondergaan grondige achtergrondcontroles."
+    },
+    "privateTravel": {
+      "title": "Privé reisoplossingen",
+      "desc": "Uw one-stop travelshop voor stad-tot-stad ritten, luchthaven transfers, uurverhuur en chauffeur oproepen."
+    },
+    "sustainableTravel": {
+      "title": "Duurzaam reizen",
+      "desc": "Alle rit-emissies worden gecompenseerd als onderdeel van onze toewijding aan duurzaam en verantwoord vervoer."
+    }
+  },
+  "airportTransfer": {
+    "hero": "Premium Luchthaven Transfers",
+    "businessVan": "Zakelijke Busje",
+    "electricClass": "Elektrische Klasse",
+    "businessVanDesc": "Mercedes V-Klasse, Volkswagen Caravelle Executive, Toyota Alphard, of vergelijkbaar",
+    "electricClassDesc": "Audi e-tron, Tesla Model X, Tesla Model S, of vergelijkbaar",
+    "fitsUpTo": "Geschikt voor maximaal",
+    "competitiveRates": "Concurrerende tarieven",
+    "competitiveRatesDesc": "Toegang tot premium service tegen afstandsgebaseerde prijzen die eerlijk zijn voor u en onze chauffeurs.",
+    "seamlessAirportTravel": "Naadloos luchthaven reizen",
+    "seamlessAirportTravelDesc": "Ontspan met 1 uur gratis wachttijd en vluchtvolgservice.",
+    "travelOnYourTerms": "Reis op uw voorwaarden",
+    "travelOnYourTermsDesc": "Blijf flexibel en houd de controle over uw reisschema. Het is snel en gemakkelijk om onze service te annuleren.",
+    "whatDoesAirportTransferDo": "Wat doet een luchthaven transfer?",
+    "whatDoesAirportTransferDoAnswer": "Een luchthaven transfer biedt deur-tot-deur vervoer tussen de luchthaven en uw bestemming. Onze professionele chauffeurs volgen uw vlucht en passen ophaaltijden dienovereenkomstig aan."
+  },
+  "cityToCity": {
+    "hero": "Stad naar Stad Transfers",
+    "topCities": "Top Steden",
+    "topRoutes": "Top Routes",
+    "howDoIGetQuote": "Hoe krijg ik een offerte?",
+    "howDoIGetQuoteAnswer": "U kunt direct een offerte krijgen door uw reisgegevens in het boekingsformulier hierboven in te voeren.",
+    "whatVehiclesDoYouUse": "Welke voertuigen gebruikt Blacklane?",
+    "whatVehiclesAnswer": "Wij bieden Business Class sedans, Business Van/SUVs en First Class luxe voertuigen."
+  },
+  "chauffeurHailing": {
+    "hero": "Zeg hallo tegen Chauffeur Hailing™!",
+    "getTheApp": "Download de app",
+    "professionalAtYourFingertips": "Professionele chauffeurs binnen handbereik",
+    "downloadAppDesc": "Download de Blacklane® Chauffeur Hailing™ app om on-demand chauffeurs op te roepen in Dubai.",
+    "convenience": "Gemak",
+    "convenienceDesc": "Krijg een deur-tot-deur chauffeur rit, precies wanneer u het nodig heeft met slechts een paar tikken in de Blacklane app.",
+    "comfort": "Comfort",
+    "comfortDesc": "Een privérit in een topvoertuig maakt elke reis een genot, niet alleen een middel tot een doel.",
+    "quality": "Kwaliteit",
+    "qualityDesc": "Uw ervaring uitstekend maken is onze topprioriteit. Geniet van de ongeëvenaarde service die u verdient voor al uw reizen.",
+    "yourScheduleYourPace": "Uw schema, uw tempo",
+    "yourScheduleDesc": "Vertrek wanneer het u uitkomt: geen noodzaak om rekening te houden met vlucht-, of huurauto tijden. Plus, gratis annulering tot 1 uur voor uw rit.",
+    "reliability": "Betrouwbaarheid",
+    "reliabilityDesc": "Boek met zekerheid, blijf dan op de hoogte met real-time rit status updates en chauffeur locatie tracking."
+  },
+  "hourlyHire": {
+    "hero": "Uurverhuur & Hele Dag",
+    "businessClass": "Zakelijke Klasse",
+    "businessVanSUV": "Zakelijk Busje/SUV",
+    "firstClass": "Eerste Klasse",
+    "vehicleClass": "Voertuig Klasse",
+    "getLuxury": "Krijg de luxe",
+    "getLuxuryDesc": "U beslist waar en wanneer u gaat, wetende dat uw chauffeur geduldig wacht. U kunt huren voor 2 uur en helemaal tot 3 uur.",
+    "enjoyPeaceOfMind": "Geniet van gemoedsrust",
+    "enjoyPeaceDesc": "Reis met een van onze premium voertuigen. Alles is inclusief—brandstof, reiniging, verzekering, tol en lokale belastingen—dus er zijn geen verrassende kosten aan het einde van de dag.",
+    "versatility": "Veelzijdigheid",
+    "versatilityDesc": "Uw chauffeurs zijn getraind volgens de hoogste kwaliteits- en privacynormen.",
+    "rideWithConfidence": "Rijd met vertrouwen",
+    "rideWithConfidenceDesc": "Met Blacklane's hoge normen, wat er ook gebeurt, zult u vertrouwen voelen dat u op ons kunt rekenen om op tijd uw bestemming te bereiken."
+  },
+  "corporateTravel": {
+    "hero": "Zakelijke Reisoplossingen",
+    "businessTrips": "Zakenreizen",
+    "businessTripsDesc": "Bied uw werknemers het meest comfortabele vervoer voor hun zakenreizen. Voeg een extra inkomstenbron toe aan uw bedrijven, of het nu binnenlands of internationaal is.",
+    "corporateEvents": "Zakelijke evenementen",
+    "corporateEventsDesc": "Naar de bestuursvergadering, een zakenreis maken of naar een conferentie gaan, zorg ervoor dat uw leidinggevenden en bezoekers op tijd en in stijl aankomen.",
+    "roadshows": "Roadshows",
+    "roadshowsDesc": "Krijg een voertuig voor uw hele roadshow reis. Onze chauffeurs kunnen op elke locatie wachten en zijn klaar wanneer u bent voor de volgende bestemming.",
+    "competitivePricing": "Concurrerende prijzen",
+    "competitivePricingDesc": "Toegang tot premium service tegen vaste, afstandsgebaseerde prijzen die eerlijk zijn voor u en onze chauffeurs.",
+    "globalAvailability": "Wereldwijde beschikbaarheid",
+    "globalAvailabilityDesc": "Boek in meer dan 50 landen en 300+ steden wereldwijd met consistente kwaliteit en service.",
+    "priorityDispatching": "Prioriteit dispatching",
+    "priorityDispatchingDesc": "Krijg prioriteitsboeking en dispatching voor uw zakelijk account met toegewijde ondersteuning.",
+    "easyBooking": "Gemakkelijk boeken",
+    "easyBookingDesc": "Boek via ons portaal, API, app of telefoon. Stel profielen en betaalmethoden in voor teamleden.",
+    "corporateReports": "Zakelijke rapporten",
+    "corporateReportsDesc": "Ontvang gedetailleerde kostenrapporten en gebruiksstatistieken om u te helpen reisbudgetten efficiënt te beheren.",
+    "businessTailoredOptions": "Zakelijk op maat gemaakte opties",
+    "businessTailoredOptionsDesc": "Wij bieden de juiste rit voor elke gelegenheid, van sedans tot SUVs en busjes."
+  },
+  "events": {
+    "hero": "Evenement Vervoer Services",
+    "yourChauffeurYourPace": "Uw chauffeur, uw tempo",
+    "yourChauffeurDesc": "Flexibele service om te gaan en wanneer. Werk onderweg met uw chauffeur die wacht op uw tijdschema, waar het voor u goed voelt.",
+    "effortlessCityTravel": "Moeiteloos stadsreizen",
+    "effortlessCityTravelDesc": "Navigeren in een nieuwe stad? Sla de chaos, verwarring en het vinden van parkeren over. Uw chauffeur beheert alle logistiek, zodat u efficiënt kunt reizen zonder de stress."
+  }
+}

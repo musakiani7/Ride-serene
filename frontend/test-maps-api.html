@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #status {
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        #suggestions {
+            border: 1px solid #ddd;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .suggestion {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+        .suggestion:hover {
+            background: #f0f0f0;
+        }
+        #console {
+            background: #000;
+            color: #0f0;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Maps API Test</h1>
+    
+    <div id="status">Loading...</div>
+    
+    <input type="text" id="addressInput" placeholder="Type an address..." />
+    <div id="suggestions"></div>
+    
+    <div id="console"></div>
+    
+    <script>
+        const API_KEY = 'AIzaSyDknMN4tz0HQpO-QaXmuV_DH4PfcRyybW0';
+        const statusDiv = document.getElementById('status');
+        const consoleDiv = document.getElementById('console');
+        const input = document.getElementById('addressInput');
+        const suggestionsDiv = document.getElementById('suggestions');
+        
+        function log(msg) {
+            console.log(msg);
+            consoleDiv.innerHTML += msg + '<br>';
+            consoleDiv.scrollTop = consoleDiv.scrollHeight;
+        }
+        
+        log('🔗 Loading Google Maps API...');
+        
+        // Load Google Maps API
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&libraries=places`;
+        script.async = true;
+        script.defer = true;
+        
+        script.onload = () => {
+            log('✅ Google Maps API loaded successfully!');
+            statusDiv.textContent = 'API Loaded Successfully! Try typing an address.';
+            statusDiv.className = 'success';
+            
+            // Initialize autocomplete service
+            const autocompleteService = new google.maps.places.AutocompleteService();
+            
+            let timeout;
+            input.addEventListener('input', (e) => {
+                const value = e.target.value;
+                log(`⌨️ User typed: ${value}`);
+                
+                clearTimeout(timeout);
+                
+                if (!value) {
+                    suggestionsDiv.innerHTML = '';
+                    return;
+                }
+                
+                timeout = setTimeout(() => {
+                    log(`🔍 Fetching predictions for: ${value}`);
+                    
+                    autocompleteService.getPlacePredictions(
+                        { input: value },
+                        (predictions, status) => {
+                            log(`📍 Status: ${status}, Predictions: ${predictions ? predictions.length : 0}`);
+                            
+                            if (status !== google.maps.places.PlacesServiceStatus.OK || !predictions) {
+                                suggestionsDiv.innerHTML = '<div class="suggestion">No results found</div>';
+                                return;
+                            }
+                            
+                            suggestionsDiv.innerHTML = predictions.map(p => 
+                                `<div class="suggestion">${p.description}</div>`
+                            ).join('');
+                        }
+                    );
+                }, 300);
+            });
+        };
+        
+        script.onerror = (err) => {
+            log('❌ Failed to load Google Maps API!');
+            log('Error: ' + err.toString());
+            statusDiv.textContent = 'API Failed to Load! Check console for details.';
+            statusDiv.className = 'error';
+        };
+        
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>

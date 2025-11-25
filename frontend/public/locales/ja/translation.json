@@ -1,0 +1,200 @@
+{
+  "header": {
+    "services": "サービス",
+    "business": "ビジネス",
+    "help": "ヘルプ",
+    "signIn": "サインイン",
+    "ourServices": "私たちのサービス",
+    "forBusiness": "ビジネス向け",
+    "forChauffeurs": "運転手向け"
+  },
+  "services": {
+    "airportTransfer": "空港送迎",
+    "cityToCity": "都市間移動",
+    "hourlyHire": "時間貸切・終日貸切",
+    "chauffeurServices": "運転手サービス",
+    "limousineServices": "リムジンサービス",
+    "chauffeurHailing": "運転手呼び出し",
+    "airportTransfers": "空港送迎サービス"
+  },
+  "businessMenu": {
+    "corporateTravel": "企業出張",
+    "travelAgencies": "旅行代理店",
+    "strategicPartnerships": "戦略的パートナーシップ",
+    "events": "イベント",
+    "overview": "概要",
+    "corporations": "企業"
+  },
+  "footer": {
+    "becomeAChauffeur": "運転手になる",
+    "businessOverview": "ビジネス概要",
+    "chauffeurLogin": "運転手ログイン",
+    "company": "会社",
+    "aboutUs": "会社概要",
+    "careers": "採用情報",
+    "press": "プレス",
+    "blog": "ブログ",
+    "rideSereneForBusiness": "RideSerene ビジネス",
+    "corporateAccounts": "法人アカウント",
+    "enterprise": "エンタープライズ",
+    "topCities": "主要都市",
+    "newYork": "ニューヨーク",
+    "london": "ロンドン",
+    "paris": "パリ",
+    "dubai": "ドバイ",
+    "tagline": "贅沢。信頼性。静けさ。"
+  },
+  "common": {
+    "learnMore": "詳しく見る",
+    "bookNow": "今すぐ予約",
+    "getStarted": "始める",
+    "contact": "お問い合わせ",
+    "submit": "送信",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メール",
+    "phone": "電話",
+    "company": "会社",
+    "message": "メッセージ",
+    "search": "検索",
+    "viewAll": "すべて表示",
+    "readMore": "続きを読む",
+    "from": "から",
+    "to": "まで",
+    "date": "日付",
+    "time": "時間",
+    "duration": "期間",
+    "hours": "時間",
+    "passengers": "乗客",
+    "luggage": "荷物",
+    "people": "人"
+  },
+  "hero": {
+    "title": "プレミアム運転手サービス",
+    "subtitle": "贅沢、信頼性、静けさを体験",
+    "oneWay": "片道",
+    "byTheHour": "時間単位",
+    "pickupLocation": "都市、住所、空港、ホテル...",
+    "destination": "目的地",
+    "rideDetails": "乗車詳細",
+    "findYourRide": "乗車を検索"
+  },
+  "servicesSection": {
+    "title": "当社のサービス",
+    "cityToCity": {
+      "title": "都市間移動",
+      "desc": "プロの運転手による都市間の長距離移動のストレスフリーなソリューション。"
+    },
+    "chauffeurHailing": {
+      "title": "運転手呼び出し",
+      "desc": "伝統的な運転手サービスの質と、予約後数分での乗車の便利さを体験。"
+    },
+    "airportTransfers": {
+      "title": "空港送迎",
+      "desc": "追加待機時間とフライト追跡を備えた信頼性の高い空港送迎で、スムーズな旅を。"
+    },
+    "hourlyHire": {
+      "title": "時間単位・終日貨切り",
+      "desc": "時間単位または終日の移動ニーズに対する完全な柔軟性、信頼性、快適性。"
+    },
+    "newBadge": "新規"
+  },
+  "features": {
+    "safetyFirst": {
+      "title": "安全第一",
+      "desc": "お客様の安全が最優先事項です。すべての運転手は確認済み、免許取得済みで、徹底した背景調査を受けています。"
+    },
+    "privateTravel": {
+      "title": "プライベート移動ソリューション",
+      "desc": "都市間移動、空港送迎、時間貨切り、運転手呼び出しのワンストップショップ。"
+    },
+    "sustainableTravel": {
+      "title": "持続可能な移動",
+      "desc": "すべての乗車排出量は、持続可能で責任ある輸送へのコミットメントの一環としてオフセットされます。"
+    }
+  },
+  "airportTransfer": {
+    "hero": "プレミアム空港送迎",
+    "businessVan": "ビジネスバン",
+    "electricClass": "電気自動車クラス",
+    "businessVanDesc": "Mercedes V-Class、Volkswagen Caravelle Executive、Toyota Alphard、または同等車両",
+    "electricClassDesc": "Audi e-tron、Tesla Model X、Tesla Model S、または同等車両",
+    "fitsUpTo": "最大乗車人数",
+    "competitiveRates": "競争力のある料金",
+    "competitiveRatesDesc": "距離ベースの公正な価格でプレミアムサービスにアクセスできます。",
+    "seamlessAirportTravel": "シームレスな空港移動",
+    "seamlessAirportTravelDesc": "1時間の無料待機時間とフライト追跡でリラックスしてください。",
+    "travelOnYourTerms": "あなたの条件で移動",
+    "travelOnYourTermsDesc": "柔軟性を保ち、旅行スケジュールを管理できます。サービスの変更やキャンセルも迅速かつ簡単です。",
+    "whatDoesAirportTransferDo": "空港送迎とは何ですか？",
+    "whatDoesAirportTransferDoAnswer": "空港送迎は、空港と目的地間のドアツードアの輸送を提供します。プロの運転手がフライトを追跡し、ピックアップ時間を調整します。"
+  },
+  "cityToCity": {
+    "hero": "都市間移動",
+    "topCities": "主要都市",
+    "topRoutes": "主要ルート",
+    "howDoIGetQuote": "見積もりを取得するには？",
+    "howDoIGetQuoteAnswer": "上記の予約フォームに旅行の詳細を入力すると、即座に見積もりを取得できます。",
+    "whatVehiclesDoYouUse": "Blacklaneはどの車両を使用していますか？",
+    "whatVehiclesAnswer": "ビジネスクラスセダン、ビジネスバン/SUV、ファーストクラス高級車両を提供しています。"
+  },
+  "chauffeurHailing": {
+    "hero": "Chauffeur Hailing™ へようこそ！",
+    "getTheApp": "アプリを入手",
+    "professionalAtYourFingertips": "指先でプロの運転手を",
+    "downloadAppDesc": "Blacklane® Chauffeur Hailing™ アプリをダウンロードして、ドバイでオンデマンドで運転手を呼び出しましょう。",
+    "convenience": "利便性",
+    "convenienceDesc": "Blacklaneアプリで数回タップするだけで、ドアツードアの運転手付き乗車が可能です。",
+    "comfort": "快適性",
+    "comfortDesc": "最高級の車両でのプライベート乗車は、すべての旅を目的への手段だけでなく、楽しみにします。",
+    "quality": "品質",
+    "qualityDesc": "お客様の体験を素晴らしいものにすることが私たちの最優先事項です。すべての旅行で当然のサービスをお楽しみください。",
+    "yourScheduleYourPace": "あなたのスケジュール、あなたのペース",
+    "yourScheduleDesc": "都合の良いときに出発：フライトやレンタカーの時間に合わせる必要はありません。さらに、乗車の1時間前まで無料キャンセル。",
+    "reliability": "信頼性",
+    "reliabilityDesc": "確実に予約し、リアルタイムの乗車ステータス更新と運転手の位置追跡で常に把握できます。"
+  },
+  "hourlyHire": {
+    "hero": "時間貸切・終日貸切",
+    "businessClass": "ビジネスクラス",
+    "businessVanSUV": "ビジネスバン/SUV",
+    "firstClass": "ファーストクラス",
+    "vehicleClass": "車両クラス",
+    "getLuxury": "贅沢を手に入れる",
+    "getLuxuryDesc": "運転手が辛抱強く待っていることを知りながら、いつどこへ行くかを決めます。2時間から3時間までレンタルできます。",
+    "enjoyPeaceOfMind": "安心を楽しむ",
+    "enjoyPeaceDesc": "プレミアム車両の1つで旅行します。すべてが含まれています—燃料、清掃、保険、通行料、地方税—したがって、一日の終わりに驚きの料金はありません。",
+    "versatility": "多様性",
+    "versatilityDesc": "運転手は最高品質とプライバシー基準に訓練されています。",
+    "rideWithConfidence": "自信を持って乗車",
+    "rideWithConfidenceDesc": "Blacklaneの高い基準により、何が起こっても、時間通りに目的地に到着し、乗車を楽しみながらリラックスできると確信できます。"
+  },
+  "corporateTravel": {
+    "hero": "企業出張ソリューション",
+    "businessTrips": "ビジネス出張",
+    "businessTripsDesc": "従業員にビジネス出張のための最も快適な交通手段を提供します。国内または国際を問わず、企業に追加の収益源を追加します。",
+    "corporateEvents": "企業イベント",
+    "corporateEventsDesc": "取締役会、ビジネス出張、または会議へ、エグゼクティブや訪問者が時間通りにスタイリッシュに到着することを確認します。",
+    "roadshows": "ロードショー",
+    "roadshowsDesc": "ロードショー全体の車両を取得します。運転手は各場所で待機でき、次の目的地の準備ができたときに準備が整います。",
+    "competitivePricing": "競争力のある価格",
+    "competitivePricingDesc": "固定の距離ベースの価格でプレミアムサービスにアクセスでき、お客様と運転手の両方にとって公正です。",
+    "globalAvailability": "グローバル利用可能性",
+    "globalAvailabilityDesc": "50か国以上、300以上の都市で一貫した品質とサービスで予約できます。",
+    "priorityDispatching": "優先配車",
+    "priorityDispatchingDesc": "専用サポート付きで、企業アカウントの優先予約と配車を取得します。",
+    "easyBooking": "簡単予約",
+    "easyBookingDesc": "ポータル、API、アプリ、または電話で予約します。チームメンバーのプロファイルと支払い方法を設定します。",
+    "corporateReports": "企業レポート",
+    "corporateReportsDesc": "詳細なコストレポートと使用統計を取得して、出張予算を効率的に管理します。",
+    "businessTailoredOptions": "ビジネス向けオプション",
+    "businessTailoredOptionsDesc": "セダンからSUVやバンまで、あらゆる機会に適した乗車を提供します。"
+  },
+  "events": {
+    "hero": "イベント輸送サービス",
+    "yourChauffeurYourPace": "あなたの運転手、あなたのペース",
+    "yourChauffeurDesc": "柔軟なサービスで、いつでも移動できます。運転手があなたのタイムスケールで待機しながら、移動中に作業します。",
+    "effortlessCityTravel": "楽な都市移動",
+    "effortlessCityTravelDesc": "新しい都市をナビゲートしていますか？混乱、困惑、駐車場探しをスキップします。運転手がすべての物流を管理し、ストレスなく効率的に移動できます。"
+  }
+}

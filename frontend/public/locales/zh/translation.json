@@ -1,0 +1,200 @@
+{
+  "header": {
+    "services": "服务",
+    "business": "商务",
+    "help": "帮助",
+    "signIn": "登录",
+    "ourServices": "我们的服务",
+    "forBusiness": "商务服务",
+    "forChauffeurs": "司机服务"
+  },
+  "services": {
+    "airportTransfer": "机场接送",
+    "cityToCity": "城际出行",
+    "hourlyHire": "小时租车和全天租车",
+    "chauffeurServices": "司机服务",
+    "limousineServices": "豪华轿车服务",
+    "chauffeurHailing": "呼叫司机",
+    "airportTransfers": "机场接送服务"
+  },
+  "businessMenu": {
+    "corporateTravel": "企业差旅",
+    "travelAgencies": "旅行社",
+    "strategicPartnerships": "战略合作",
+    "events": "活动",
+    "overview": "概览",
+    "corporations": "企业"
+  },
+  "footer": {
+    "becomeAChauffeur": "成为司机",
+    "businessOverview": "业务概览",
+    "chauffeurLogin": "司机登录",
+    "company": "公司",
+    "aboutUs": "关于我们",
+    "careers": "职业",
+    "press": "新闻",
+    "blog": "博客",
+    "rideSereneForBusiness": "RideSerene 商务服务",
+    "corporateAccounts": "企业账户",
+    "enterprise": "企业版",
+    "topCities": "热门城市",
+    "newYork": "纽约",
+    "london": "伦敦",
+    "paris": "巴黎",
+    "dubai": "迪拜",
+    "tagline": "奢华。可靠。宁静。"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "bookNow": "立即预订",
+    "getStarted": "开始使用",
+    "contact": "联系我们",
+    "submit": "提交",
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "email": "电子邮件",
+    "phone": "电话",
+    "company": "公司",
+    "message": "留言",
+    "search": "搜索",
+    "viewAll": "查看全部",
+    "readMore": "阅读更多",
+    "from": "从",
+    "to": "到",
+    "date": "日期",
+    "time": "时间",
+    "duration": "时长",
+    "hours": "小时",
+    "passengers": "乘客",
+    "luggage": "行李",
+    "people": "人"
+  },
+  "hero": {
+    "title": "高端专业司机服务",
+    "subtitle": "体验奢华、可靠和宁静",
+    "oneWay": "单程",
+    "byTheHour": "按小时",
+    "pickupLocation": "城市、地址、机场、酒店...",
+    "destination": "目的地",
+    "rideDetails": "行程详情",
+    "findYourRide": "查找您的行程"
+  },
+  "servicesSection": {
+    "title": "我们的服务",
+    "cityToCity": {
+      "title": "城际出行",
+      "desc": "专业司机为您提供城市间长途出行的无忧解决方案。"
+    },
+    "chauffeurHailing": {
+      "title": "召唤司机",
+      "desc": "体验传统司机服务的质量，享受预订后几分钟内出行的便利。"
+    },
+    "airportTransfers": {
+      "title": "机场接送",
+      "desc": "可靠的机场接送服务，提供额外等候时间和航班跟踪，确保旅程顺畅。"
+    },
+    "hourlyHire": {
+      "title": "按小时和全天租车",
+      "desc": "为您的每小时或全天交通需求提供全面的灵活性、可靠性和舒适性。"
+    },
+    "newBadge": "新"
+  },
+  "features": {
+    "safetyFirst": {
+      "title": "安全第一",
+      "desc": "您的安全是我们的首要任务。所有司机均经过验证、持证上岗，并接受全面的背景调查。"
+    },
+    "privateTravel": {
+      "title": "私人出行解决方案",
+      "desc": "您的一站式出行商店，提供城际出行、机场接送、按小时租车和召唤司机服务。"
+    },
+    "sustainableTravel": {
+      "title": "可持续出行",
+      "desc": "所有行程排放均得到补偿，这是我们致力于可持续和负责任交通的承诺。"
+    }
+  },
+  "airportTransfer": {
+    "hero": "高端机场接送",
+    "businessVan": "商务车",
+    "electricClass": "电动车级别",
+    "businessVanDesc": "Mercedes V-Class、Volkswagen Caravelle Executive、Toyota Alphard 或类似车型",
+    "electricClassDesc": "Audi e-tron、Tesla Model X、Tesla Model S 或类似车型",
+    "fitsUpTo": "最多可容纳",
+    "competitiveRates": "竞争性价格",
+    "competitiveRatesDesc": "以基于距离的公平价格享受高端服务，对您和我们的司机都公平。",
+    "seamlessAirportTravel": "无缝机场出行",
+    "seamlessAirportTravelDesc": "享受1小时免费等候时间和航班跟踪服务。",
+    "travelOnYourTerms": "按您的方式出行",
+    "travelOnYourTermsDesc": "保持灵活，掌控您的行程安排。快速轻松地取消我们的服务更改。",
+    "whatDoesAirportTransferDo": "机场接送服务是什么？",
+    "whatDoesAirportTransferDoAnswer": "机场接送提供机场与您目的地之间的门到门交通服务。我们的专业司机会跟踪您的航班并相应调整接机时间。"
+  },
+  "cityToCity": {
+    "hero": "城际出行",
+    "topCities": "热门城市",
+    "topRoutes": "热门路线",
+    "howDoIGetQuote": "如何获取报价？",
+    "howDoIGetQuoteAnswer": "您可以通过在上方的预订表格中输入行程详情来获取即时报价。",
+    "whatVehiclesDoYouUse": "Blacklane使用什么车辆？",
+    "whatVehiclesAnswer": "我们提供商务级轿车、商务Van/SUV和头等舱豪华车辆。"
+  },
+  "chauffeurHailing": {
+    "hero": "欢迎使用 Chauffeur Hailing™！",
+    "getTheApp": "获取应用",
+    "professionalAtYourFingertips": "专业司机触手可及",
+    "downloadAppDesc": "下载 Blacklane® Chauffeur Hailing™ 应用，在迪拜随时召唤司机。",
+    "convenience": "便利",
+    "convenienceDesc": "只需在Blacklane应用中轻点几下，即可获得门到门的司机服务。",
+    "comfort": "舒适",
+    "comfortDesc": "在顶级车辆中私人出行，让每次旅程都成为享受，而不仅仅是达到目的的手段。",
+    "quality": "品质",
+    "qualityDesc": "让您的体验卓越是我们的首要任务。享受您在所有旅程中应得的无与伦比的服务。",
+    "yourScheduleYourPace": "您的时间表，您的节奏",
+    "yourScheduleDesc": "按您的时间出发：无需围绕航班或租车时间安排。此外，在您的行程前1小时可免费取消。",
+    "reliability": "可靠性",
+    "reliabilityDesc": "放心预订，然后通过实时行程状态更新和司机位置跟踪随时了解情况。"
+  },
+  "hourlyHire": {
+    "hero": "按小时和全天租车",
+    "businessClass": "商务级",
+    "businessVanSUV": "商务Van/SUV",
+    "firstClass": "头等舱",
+    "vehicleClass": "车辆级别",
+    "getLuxury": "享受奢华",
+    "getLuxuryDesc": "您决定何时何地出发，知道您的司机正耐心等待。您可以租用2小时到3小时。",
+    "enjoyPeaceOfMind": "享受安心",
+    "enjoyPeaceDesc": "乘坐我们的高端车辆之一出行。一切都包含在内——燃油、清洁、保险、通行费和当地税费——因此当天结束时不会有意外费用。",
+    "versatility": "多功能性",
+    "versatilityDesc": "您的司机接受过最高质量和隐私标准的培训。",
+    "rideWithConfidence": "放心出行",
+    "rideWithConfidenceDesc": "凭借Blacklane的高标准，无论发生什么，您都会有信心，相信我们能让您准时到达目的地并在旅途中放松。"
+  },
+  "corporateTravel": {
+    "hero": "企业差旅解决方案",
+    "businessTrips": "商务旅行",
+    "businessTripsDesc": "为您的员工提供最舒适的商务旅行交通服务。为您的公司增加额外的收入来源，无论是国内还是国际。",
+    "corporateEvents": "企业活动",
+    "corporateEventsDesc": "无论是董事会会议、商务旅行还是参加会议，确保您的高管和访客准时且有格调地到达。",
+    "roadshows": "路演",
+    "roadshowsDesc": "为您的整个路演行程提供车辆。我们的司机可以在每个地点等候，并在您准备好前往下一个目的地时随时出发。",
+    "competitivePricing": "竞争性价格",
+    "competitivePricingDesc": "以固定的、基于距离的公平价格享受高端服务，对您和我们的司机都公平。",
+    "globalAvailability": "全球可用",
+    "globalAvailabilityDesc": "在全球50多个国家和300多个城市预订，享受一致的质量和服务。",
+    "priorityDispatching": "优先调度",
+    "priorityDispatchingDesc": "为您的企业账户提供优先预订和调度，并提供专属支持。",
+    "easyBooking": "轻松预订",
+    "easyBookingDesc": "通过我们的门户网站、API、应用程序或电话预订。为团队成员设置个人资料和付款方式。",
+    "corporateReports": "企业报告",
+    "corporateReportsDesc": "获取详细的成本报告和使用统计数据，帮助您有效管理差旅预算。",
+    "businessTailoredOptions": "商务定制选项",
+    "businessTailoredOptionsDesc": "我们为每个场合提供合适的车辆，从轿车到SUV和面包车。"
+  },
+  "events": {
+    "hero": "活动交通服务",
+    "yourChauffeurYourPace": "您的司机，您的节奏",
+    "yourChauffeurDesc": "灵活的服务，随时出发。随时随地与您的司机一起工作，按照您的时间表，在您感觉合适的地方。",
+    "effortlessCityTravel": "轻松城市出行",
+    "effortlessCityTravelDesc": "在新城市导航？避免混乱、困惑和寻找停车位。您的司机管理所有物流，让您高效出行而无压力。"
+  }
+}

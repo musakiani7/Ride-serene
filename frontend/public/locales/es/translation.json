@@ -1,0 +1,200 @@
+{
+  "header": {
+    "services": "Servicios",
+    "business": "Negocios",
+    "help": "Ayuda",
+    "signIn": "Iniciar sesión",
+    "ourServices": "Nuestros servicios",
+    "forBusiness": "Para empresas",
+    "forChauffeurs": "Para choferes"
+  },
+  "services": {
+    "airportTransfer": "Transfer aeropuerto",
+    "cityToCity": "Ciudad a ciudad",
+    "hourlyHire": "Alquiler por hora y día completo",
+    "chauffeurServices": "Servicios de chofer",
+    "limousineServices": "Servicios de limusina",
+    "chauffeurHailing": "Llamada de chofer",
+    "airportTransfers": "Transfers de aeropuerto"
+  },
+  "businessMenu": {
+    "corporateTravel": "Viajes corporativos",
+    "travelAgencies": "Agencias de viajes",
+    "strategicPartnerships": "Asociaciones estratégicas",
+    "events": "Eventos",
+    "overview": "Descripción general",
+    "corporations": "Corporaciones"
+  },
+  "footer": {
+    "becomeAChauffeur": "Conviértete en chofer",
+    "businessOverview": "Resumen empresarial",
+    "chauffeurLogin": "Inicio de sesión de chofer",
+    "company": "Empresa",
+    "aboutUs": "Sobre Nosotros",
+    "careers": "Carreras",
+    "press": "Prensa",
+    "blog": "Blog",
+    "rideSereneForBusiness": "RideSerene para Empresas",
+    "corporateAccounts": "Cuentas Corporativas",
+    "enterprise": "Enterprise",
+    "topCities": "Principales Ciudades",
+    "newYork": "Nueva York",
+    "london": "Londres",
+    "paris": "París",
+    "dubai": "Dubái",
+    "tagline": "Lujo. Confiabilidad. Serenidad."
+  },
+  "common": {
+    "learnMore": "Más información",
+    "bookNow": "Reservar ahora",
+    "getStarted": "Empezar",
+    "contact": "Contáctenos",
+    "submit": "Enviar",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "message": "Mensaje",
+    "search": "Buscar",
+    "viewAll": "Ver todo",
+    "readMore": "Leer más",
+    "from": "Desde",
+    "to": "Hasta",
+    "date": "Fecha",
+    "time": "Hora",
+    "duration": "Duración",
+    "hours": "horas",
+    "passengers": "Pasajeros",
+    "luggage": "Equipaje",
+    "people": "personas"
+  },
+  "hero": {
+    "title": "Servicio Premium de Chofer",
+    "subtitle": "Experimente lujo, confiabilidad y serenidad",
+    "oneWay": "Solo ida",
+    "byTheHour": "Por hora",
+    "pickupLocation": "Ciudad, dirección, aeropuerto, hotel, ...",
+    "destination": "Destino",
+    "rideDetails": "Detalles del viaje",
+    "findYourRide": "Encuentra tu viaje"
+  },
+  "servicesSection": {
+    "title": "Nuestros servicios",
+    "cityToCity": {
+      "title": "Viajes ciudad a ciudad",
+      "desc": "Una solución sin estrés para viajes de larga distancia entre ciudades con choferes profesionales."
+    },
+    "chauffeurHailing": {
+      "title": "Llamada de chofer",
+      "desc": "Experimente la calidad de un servicio de chofer tradicional con la comodidad de viajar en minutos."
+    },
+    "airportTransfers": {
+      "title": "Transfers aeropuerto",
+      "desc": "Transfers de aeropuerto confiables con tiempo de espera adicional y seguimiento de vuelo para una experiencia perfecta."
+    },
+    "hourlyHire": {
+      "title": "Alquiler por hora y día completo",
+      "desc": "Flexibilidad, confiabilidad y comodidad total para sus necesidades de transporte por hora o día completo."
+    },
+    "newBadge": "NUEVO"
+  },
+  "features": {
+    "safetyFirst": {
+      "title": "Seguridad primero",
+      "desc": "Su seguridad es nuestra máxima prioridad. Todos los choferes están verificados, licenciados y pasan verificaciones exhaustivas."
+    },
+    "privateTravel": {
+      "title": "Soluciones de viaje privado",
+      "desc": "Su tienda única para viajes ciudad a ciudad, transfers de aeropuerto, alquiler por hora y llamada de chofer."
+    },
+    "sustainableTravel": {
+      "title": "Viaje sostenible",
+      "desc": "Todas las emisiones de viajes se compensan como parte de nuestro compromiso con el transporte sostenible y responsable."
+    }
+  },
+  "airportTransfer": {
+    "hero": "Transfers Aeropuerto Premium",
+    "businessVan": "Van de Negocios",
+    "electricClass": "Clase Eléctrica",
+    "businessVanDesc": "Mercedes V-Class, Volkswagen Caravelle Executive, Toyota Alphard, o similar",
+    "electricClassDesc": "Audi e-tron, Tesla Model X, Tesla Model S, o similar",
+    "fitsUpTo": "Capacidad hasta",
+    "competitiveRates": "Tarifas competitivas",
+    "competitiveRatesDesc": "Acceda a servicios premium a precios basados en distancia que son justos para usted y nuestros choferes.",
+    "seamlessAirportTravel": "Viaje aeroportuario sin inconvenientes",
+    "seamlessAirportTravelDesc": "Relájese con 1 hora de tiempo de espera gratuito y seguimiento de vuelo.",
+    "travelOnYourTerms": "Viaje en sus términos",
+    "travelOnYourTermsDesc": "Manténgase flexible y a cargo de su horario de viaje. Es rápido y fácil cancelar nuestros cambios de servicio.",
+    "whatDoesAirportTransferDo": "¿Qué hace un transfer de aeropuerto?",
+    "whatDoesAirportTransferDoAnswer": "Un transfer de aeropuerto proporciona transporte puerta a puerta entre el aeropuerto y su destino. Nuestros choferes profesionales rastrean su vuelo y ajustan los horarios de recogida en consecuencia."
+  },
+  "cityToCity": {
+    "hero": "Transfers Ciudad a Ciudad",
+    "topCities": "Principales Ciudades",
+    "topRoutes": "Rutas Principales",
+    "howDoIGetQuote": "¿Cómo obtengo una cotización?",
+    "howDoIGetQuoteAnswer": "Puede obtener una cotización instantánea ingresando los detalles de su viaje en el formulario de reserva arriba.",
+    "whatVehiclesDoYouUse": "¿Qué vehículos usa Blacklane?",
+    "whatVehiclesAnswer": "Ofrecemos sedanes Business Class, Van/SUV Business y vehículos de lujo First Class."
+  },
+  "chauffeurHailing": {
+    "hero": "¡Diga hola a Chauffeur Hailing™!",
+    "getTheApp": "Obtener la aplicación",
+    "professionalAtYourFingertips": "Choferes profesionales al alcance de su mano",
+    "downloadAppDesc": "Descargue la aplicación Blacklane® Chauffeur Hailing™ para llamar choferes a demanda en Dubái.",
+    "convenience": "Conveniencia",
+    "convenienceDesc": "Obtenga un viaje con chofer puerta a puerta, justo cuando lo necesite con solo unos toques en la aplicación Blacklane.",
+    "comfort": "Comodidad",
+    "comfortDesc": "Un viaje privado en un vehículo de primera línea hace que cada viaje sea un placer, no solo un medio para un fin.",
+    "quality": "Calidad",
+    "qualityDesc": "Hacer que su experiencia sea excelente es nuestra máxima prioridad. Disfrute del servicio incomparable que merece para todos sus viajes.",
+    "yourScheduleYourPace": "Su horario, su ritmo",
+    "yourScheduleDesc": "Salga cuando le convenga: no necesita adaptarse a horarios de vuelo o alquiler de autos. Además, cancelación gratuita hasta 1 hora antes de su viaje.",
+    "reliability": "Confiabilidad",
+    "reliabilityDesc": "Reserve con certeza, luego manténgase informado con actualizaciones en tiempo real del estado del viaje y seguimiento de ubicación del chofer."
+  },
+  "hourlyHire": {
+    "hero": "Alquiler por Hora y Día Completo",
+    "businessClass": "Clase Ejecutiva",
+    "businessVanSUV": "Van/SUV de Negocios",
+    "firstClass": "Primera Clase",
+    "vehicleClass": "Clase de Vehículo",
+    "getLuxury": "Obtenga el lujo",
+    "getLuxuryDesc": "Usted decide dónde y cuándo ir, sabiendo que su chofer espera pacientemente. Puede alquilar por 2 horas hasta 3 horas.",
+    "enjoyPeaceOfMind": "Disfrute de tranquilidad",
+    "enjoyPeaceDesc": "Viaje con uno de nuestros vehículos premium. Todo está incluido: combustible, limpieza, seguro, peajes e impuestos locales, sin cargos sorpresa.",
+    "versatility": "Versatilidad",
+    "versatilityDesc": "Sus choferes están capacitados según los más altos estándares de calidad y privacidad.",
+    "rideWithConfidence": "Viaje con confianza",
+    "rideWithConfidenceDesc": "Con los altos estándares de Blacklane, sin importar qué suceda, se sentirá seguro de poder contar con nosotros para llegar a su destino a tiempo."
+  },
+  "corporateTravel": {
+    "hero": "Soluciones de Viaje Corporativo",
+    "businessTrips": "Viajes de negocios",
+    "businessTripsDesc": "Proporcione a sus empleados el transporte más cómodo para sus viajes de negocios. Agregue una fuente adicional de ingresos a sus empresas, ya sean nacionales o internacionales.",
+    "corporateEvents": "Eventos corporativos",
+    "corporateEventsDesc": "A la reunión de la junta, viajando por negocios o asistiendo a una conferencia, asegúrese de que sus ejecutivos y visitantes lleguen a tiempo y con estilo.",
+    "roadshows": "Giras promocionales",
+    "roadshowsDesc": "Obtenga un vehículo para todo su viaje de gira. Nuestros choferes pueden esperar en cada ubicación y están listos cuando usted esté para el siguiente destino.",
+    "competitivePricing": "Precios competitivos",
+    "competitivePricingDesc": "Acceda a servicios premium a precios fijos basados en distancia que son justos para usted y nuestros choferes.",
+    "globalAvailability": "Disponibilidad global",
+    "globalAvailabilityDesc": "Reserve en más de 50 países y 300+ ciudades en todo el mundo con calidad y servicio consistentes.",
+    "priorityDispatching": "Despacho prioritario",
+    "priorityDispatchingDesc": "Obtenga reserva y despacho prioritarios para su cuenta corporativa con soporte dedicado.",
+    "easyBooking": "Reserva fácil",
+    "easyBookingDesc": "Reserve a través de nuestro portal, API, aplicación o teléfono. Configure perfiles y métodos de pago para miembros del equipo.",
+    "corporateReports": "Informes corporativos",
+    "corporateReportsDesc": "Obtenga informes de costos detallados y estadísticas de uso para ayudarlo a administrar presupuestos de viaje de manera eficiente.",
+    "businessTailoredOptions": "Opciones adaptadas a negocios",
+    "businessTailoredOptionsDesc": "Proporcionamos el viaje adecuado para cada ocasión, desde sedanes hasta SUVs y vans."
+  },
+  "events": {
+    "hero": "Servicios de Transporte para Eventos",
+    "yourChauffeurYourPace": "Su chofer, su ritmo",
+    "yourChauffeurDesc": "Servicio flexible para ir y cuándo. Trabaje en movimiento con su chofer esperando según su horario, donde se sienta bien para usted.",
+    "effortlessCityTravel": "Viaje urbano sin esfuerzo",
+    "effortlessCityTravelDesc": "¿Navegando una nueva ciudad? Evite el caos, la confusión y la búsqueda de estacionamiento. Su chofer gestiona toda la logística, para que pueda viajar eficientemente sin estrés."
+  }
+}
