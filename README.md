@@ -168,14 +168,16 @@ Install & Run (local dev)
 
 from project root, if backend in 'backend' folder:
 cd backend
+
 npm install
 
- development (with nodemon)
+development (with nodemon):
+
 npm run dev
 
- or production start
-npm start
+or production start:
 
+npm start
 
 ## License
 
